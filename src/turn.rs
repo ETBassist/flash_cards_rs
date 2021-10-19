@@ -25,8 +25,8 @@ pub struct Card {
 
 #[cfg(test)]
 mod tests {
-    use crate::turn::Card;
-    use crate::turn::Turn;
+    use super::Card;
+    use super::Turn;
 
     #[test]
     fn returns_attr_data() {
