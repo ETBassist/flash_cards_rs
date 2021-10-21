@@ -13,7 +13,6 @@ impl Deck {
         let found_cards: Vec<Card> = cards
             .into_iter()
             .filter(|card| card.category.eq(category))
-            .map(|card| card.clone())
             .collect::<Vec<Card>>();
         found_cards
     }
